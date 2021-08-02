@@ -1,0 +1,110 @@
+/* import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* css begin here */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-sidebar{
+    background-color: #EEFBFF;
+    width: 35%;
+    float: left;
+}
+
+.login-form{
+    float: left;
+    width: 65%;
+}
+
+.logo img{
+    margin-top: 96px;
+    margin-right: 19px;
+    margin-bottom: 155px;
+}
+
+.login-illustrator{
+    margin-bottom: 24vh;
+}
+
+.login-form-content{
+    margin-top: 216px;
+    margin-left: 102px;
+    width: 600px;
+}
+
+.login-form-content h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 57.28px;
+    letter-spacing: 1.5%;
+    color: #2C6693;
+}
+
+.login-form-content h2{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42.96px;
+}
+
+.login-form-content form{
+    margin-top: 53px;
+}
+
+.login-form-content .form-control{
+    height: 48px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #EFEFEF;
+    font-size: 18px;
+}
+
+.btn-login{
+    width: 141px;
+    height: 47px;
+    background-color: #2C6693;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        background-color: #EEFBFF;
+    }
+    .logo{
+        position: absolute;
+        margin: 0 60px;
+    }
+
+    .login-form{
+        margin-left: -55px;
+    }
+
+    .login-form h1{
+        font-size: 28px;
+    }
+
+    .login-form h2{
+        font-size: 20px;
+        margin-top: -15px;
+        margin-bottom: -20px;
+    }
+
+    .login-form-content .form-control{
+        height: 40px;
+        width: 54%;
+    }
+
+    .btn-login{
+        width: 141px;
+        height: 40px;
+    }
+
+    .login-illustrator{
+        display: none;
+    }
+  }
